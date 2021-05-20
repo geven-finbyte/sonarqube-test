@@ -1,4 +1,4 @@
-package com.test.sonarqubetest;
+package com.test.sonarqubetest.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

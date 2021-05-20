@@ -1,6 +1,6 @@
 package com.test.sonarqubetest.controller;
 
-import com.test.sonarqubetest.DummyModel;
+import com.test.sonarqubetest.model.DummyModel;
 import java.util.Optional;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
