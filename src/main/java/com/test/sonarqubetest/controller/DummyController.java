@@ -15,6 +15,6 @@ public class DummyController {
 
   @GetMapping("/dummyEndpoint")
   public ResponseEntity<DummyModel> dummyEndpoint(){
-    return ResponseEntity.of(Optional.of(new DummyModel("Ali", "1")));
+    return ResponseEntity.of(Optional.of(new DummyModel("Ali", "1", 1)));
   }
 }
